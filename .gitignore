@@ -1,0 +1,25 @@
+# Environment secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build output
+**/dist/
+**/build/
+
+# Temporary and generated files
+**/.wrangler/
+**/*.log
+**/*.cache
+frontend_project/build_out.txt
+frontend_project/status.txt
+frontend_project/tsc_out.txt
+
+# Laravel generated files
+backend_project/storage/framework/*
+backend_project/storage/logs/*
+backend_project/bootstrap/cache/*.php
